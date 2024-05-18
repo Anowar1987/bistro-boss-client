@@ -9,7 +9,7 @@ const FoodCard = ({item}) => {
                 <h2 className="card-title text-2xl font-semibold justify-center">{name}</h2>
                 <p>{recipe}</p>
                 <div className="card-actions justify-center">
-                    <button className="btn btn-primary">Add to Cart</button>
+                    <button className="btn btn-primary uppercase">Add to Cart</button>
                 </div>
             </div>
         </div>
